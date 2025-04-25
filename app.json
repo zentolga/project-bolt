@@ -11,6 +11,9 @@
     "ios": {
       "supportsTablet": true
     },
+    "android": {
+      "package": "com.zentolga.projectbolt"
+    },
     "web": {
       "bundler": "metro",
       "output": "single",
@@ -19,6 +22,16 @@
     "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
+    },
+    "sdkVersion": "52.0.0",
+    "platforms": ["ios", "android", "web"],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7be66276"
+      }
     }
   }
 }
